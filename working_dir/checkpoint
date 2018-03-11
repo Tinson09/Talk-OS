@@ -1,0 +1,6 @@
+model_checkpoint_path: "seq2seq.ckpt-3500"
+all_model_checkpoint_paths: "seq2seq.ckpt-3300"
+all_model_checkpoint_paths: "seq2seq.ckpt-3350"
+all_model_checkpoint_paths: "seq2seq.ckpt-3400"
+all_model_checkpoint_paths: "seq2seq.ckpt-3450"
+all_model_checkpoint_paths: "seq2seq.ckpt-3500"
