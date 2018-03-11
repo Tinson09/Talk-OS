@@ -30,6 +30,7 @@
 *.data*
 env/*
 .vscode
+.pyc
 
 # OS generated files #
 ######################
