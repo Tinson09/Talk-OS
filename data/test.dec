@@ -1,0 +1,116 @@
+copy _UNK_a , _UNK_b
+type _UNK_a
+restart
+paste \0 , \0
+google _UNK_1
+move _UNK_a , \0
+press 4
+search _UNK_1
+cfolder _UNK_a , \0
+copy \0 , \0
+move _UNK_a , \0
+copy \0 , \0
+copy _UNK_a , _UNK_b
+press _UNK_a _UNK_b _UNK_c
+folder back
+folder back
+cfolder _UNK_a , _UNK_b
+select _UNK_a
+move _UNK_a , \0
+press _UNK_a
+press 9
+press _UNK_a
+move _UNK_a , \0
+date day
+press _UNK_a
+date date
+move _UNK_a , \0
+delete _UNK_a
+folder back
+move _UNK_a , _UNK_b
+restart
+press 5
+date time
+paste \0 , \0
+folder back
+move \0 , \0
+chatbot
+cfile _UNK_a , \0
+chatbot
+cfolder _UNK_a , \0
+move _UNK_a , \0
+date date
+press _UNK_a _UNK_b _UNK_c
+file _UNK_a
+date time
+file _UNK_a
+search _UNK_1
+press _UNK_a
+copy _UNK_a , _UNK_b
+cfolder _UNK_a , \0
+open _UNK_a
+copy \0 , \0
+press a
+move \0 , \0
+type _UNK_a
+delete _UNK_a
+date day
+cfolder _UNK_a , \0
+cfile _UNK_a , _UNK_b
+folder _UNK_a
+copy _UNK_a , \0
+date time
+press _UNK_a _UNK_b _UNK_c
+copy \0 , \0
+chatbot
+shutdown
+cfile _UNK_a , _UNK_b
+shutdown
+search _UNK_1
+cfile _UNK_a , _UNK_b
+folder back
+cfile _UNK_a , \0
+date time
+cfile _UNK_a , _UNK_b
+date time
+cfolder _UNK_a , _UNK_b
+paste \0 , \0
+copy _UNK_a , _UNK_b
+press a
+date time
+move \0 , \0
+date day
+close _UNK_a
+press _UNK_a _UNK_b _UNK_c
+paste \0 , \0
+cfile _UNK_a , \0
+switch
+press _UNK_a _UNK_b _UNK_c
+switch
+restart
+move _UNK_a , \0
+file _UNK_a
+google _UNK_1
+shutdown
+switch
+copy _UNK_a , \0
+copy _UNK_a , \0
+cfolder _UNK_a , \0
+file _UNK_a
+google _UNK_1
+chatbot
+switch
+select _UNK_a
+search _UNK_1
+paste \0 , \0
+press _UNK_a _UNK_b _UNK_c
+chatbot
+move _UNK_a , _UNK_b
+copy _UNK_a , _UNK_b
+press _UNK_a
+chatbot
+date time
+switch
+restart
+date time
+date date

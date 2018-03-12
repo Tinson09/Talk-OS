@@ -16,6 +16,8 @@ import data_utils
 import seq2seq_model
 from vocabulary import inputrepair, outputrepair
 
+Perfrom_Train = True
+
 try:
     reload
 except NameError:
@@ -31,6 +33,8 @@ except:
 gConfig = {}
 
 def get_config(config_file='seq2seqperform.ini'):
+    if not Perfrom_Train:
+        config_file = 'seq2seq.ini'
     parser = SafeConfigParser()
     parser.read(config_file)
     # get the ints, floats and strings
@@ -70,7 +74,11 @@ def read_data(source_path, target_path, max_size=None):
 def create_model(session, forward_only):
 
   """Create model and initialize or load parameters"""
-  model = seq2seq_model.Seq2SeqModel( gConfig['enc_vocab_size'], gConfig['dec_vocab_size'], _buckets, gConfig['layer_size'], gConfig['num_layers'], gConfig['max_gradient_norm'], gConfig['batch_size'], gConfig['learning_rate'], gConfig['learning_rate_decay_factor'], forward_only=forward_only)
+  if Perfrom_Train:
+      use_lstm = False
+  else:
+      use_lstm = True
+  model = seq2seq_model.Seq2SeqModel( gConfig['enc_vocab_size'], gConfig['dec_vocab_size'], _buckets, gConfig['layer_size'], gConfig['num_layers'], gConfig['max_gradient_norm'], gConfig['batch_size'], gConfig['learning_rate'], gConfig['learning_rate_decay_factor'], forward_only=forward_only, use_lstm=use_lstm)
 
   if 'pretrained_model' in gConfig:
       model.saver.restore(session,gConfig['pretrained_model'])

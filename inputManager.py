@@ -3,7 +3,7 @@ from nltk import sent_tokenize
 from speechtotext import gettext
 from texttospeech import say
 
-VOICE = False
+VOICE = True
 
 cliche_choices = {"what is your name":"My name is Eva", "your name":"My name is Eva", "What is your name?":"My name is Eva."}
 
