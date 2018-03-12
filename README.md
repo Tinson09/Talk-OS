@@ -6,11 +6,14 @@ This system is also integrated with an AI chatbot, with which you can converse.
 OS: Linux (Ubuntu or Mint)
 Python2.7
 xdotool
+
+```
 Python Libraries :-
-> tensorflow==0.12.0
-> Pyttsx
-> speech_recognition
-> Numpy
+ tensorflow==0.12.0
+ Pyttsx
+ speech_recognition
+ Numpy
+```
 
 ## Usage:
 
