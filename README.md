@@ -36,20 +36,36 @@ Run python execute.py
 Run ./main.sh
 ```
 * **Today's date?**
+Bot:Today is 25th Sepetember 2010
 * **What day is today?**
+Bot:Today is Tuesday
 * **What time is it?**
-* **Open firefox**
+Bot:Time is 3:30 PM
+* **Open [Application name]**
+Bot :- Launch the application that user asks.
 * **Go to [Folder name]**
+Bot :- Go to the folder which is in the given opened File browser session
 * **Go back**
+Bot :- Goes back to the previous directory
 * **Google [Something]**
+Bot :- Googles what you asks
 * **Select file or folder**
+Bot :- Select the file or folder in the given file browser session
 * **Press [Key]**
+Bot :- Press the specified key
 * **Close [Application]**
+Bot :- Close the application
 * **Copy [File or Folder]**
+Bot :- Copy the file or folder to clipboard
 * **Paste**
+Bot :- Executes paste operation
 * **Delete [Folder or File]**
+Bot :- Delete the specified folder or file
 * **Switch window**
+Bot :- Switch to next window (Alt+Tab action)
 * **Create folder [Folder name]**
+Bot :- Creates a folder at the specified position
 * **Type [Something]**
+Bot :- Types what user asks to type
 * **Let's Chat**
-
+Bot :- System goes to AI chatbot mode with which the user can converse
