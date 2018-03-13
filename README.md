@@ -35,18 +35,18 @@ Run python execute.py
 ```
 Run ./main.sh
 ```
-* **Today's date? **
-* **What day is today? **
-* **What time is it? **
-* **Open firefox **
-* **Go to [Folder name] **
-* **Go back **
-* **Google [Something] **
-* **Select file or folder **
-* **Press [Key] **
-* **Close [Application] **
-* **Copy [File or Folder] **
-* **Paste **
-* **Delete [Folder or File] **
-* **Let's Chat **
+* **Today's date?**
+* **What day is today?**
+* **What time is it?**
+* **Open firefox**
+* **Go to [Folder name]**
+* **Go back**
+* **Google [Something]**
+* **Select file or folder**
+* **Press [Key]**
+* **Close [Application]**
+* **Copy [File or Folder]**
+* **Paste**
+* **Delete [Folder or File]**
+* **Let's Chat**
 
