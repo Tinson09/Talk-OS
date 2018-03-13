@@ -92,8 +92,14 @@ Bot :- Delete the specified folder or file
 Bot :- Switch to next window (Alt+Tab action)
 ```
 * **Create folder [Folder name]**
-- Bot :- Creates a folder at the specified position
+```
+Bot :- Creates a folder at the specified position
+```
 * **Type [Something]**
-- Bot :- Types what user asks to type
+```
+Bot :- Types what user asks to type
+```
 * **Let's Chat**
-- Bot :- System goes to AI chatbot mode with which the user can converse
+```
+Bot :- System goes to AI chatbot mode with which the user can converse
+```
