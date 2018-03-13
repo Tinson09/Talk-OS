@@ -37,15 +37,15 @@ Run ./main.sh
 ```
 * **Today's date?**
 ```
- Bot:Today is 25th Sepetember 2010
+ Bot: "Today is 25th Sepetember 2010"
  ```
 * **What day is today?**
 ```
-Bot:Today is Tuesday
+Bot: "Today is Tuesday"
 ```
 * **What time is it?**
 ```
-- Bot:Time is 3:30 PM
+Bot: "Time is 3:30 PM"
 ```
 * **Open [Application name]**
 ```
