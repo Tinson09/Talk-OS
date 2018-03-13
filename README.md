@@ -1,6 +1,5 @@
 # Talk-OS
-An AI personal assistant like JARVIS, with which users can communicate with their Ubuntu systems in informal language. With an Articial Neural Network working at the center. 
-This system understands what you want from the informal language that you use to talk to the system. And does exactly what you ask it to do.
+An AI personal assistant like JARVIS, with which users can communicate with their Ubuntu systems in informal language. With an Articial Neural Network working at the center. This system understands what you want from the informal language that you use to talk to the system. And does exactly what you ask it to do.
 This system is also integrated with an AI chatbot, with which you can converse.
 
 ## Requirements:
@@ -105,3 +104,31 @@ Bot :- Types what user asks to type
 ```
 Bot :- System goes to AI chatbot mode with which the user can converse
 ```
+
+## Background Details
+
+This project is an attempt to replace AIML with Neural Machine Translation(NMT). 
+NMT is more scalable, showcase better performance, provides better failure handling in case of situations that is not predefined in AIML.
+
+### Adding of new Functionalities
+
+Adding of new functionalities can be done by adding new examples cases of new functionalities in:
+```
+data/Talkos.xlsx
+```
+
+And generate the training and testing set by running
+
+```
+python db.py
+```
+
+After that set Perform_Train = True, in execute.py
+
+Continue training for 30 minutes and terminate it using ctrl+c
+
+
+Add the script for new functionality in the class Execution located at instruction.py
+
+### Neural Network Model
+
