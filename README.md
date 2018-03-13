@@ -32,10 +32,10 @@ Run python execute.py
 ```
 
 ### Deployment
-#### Examples :-
 ```
 Run ./main.sh
 ```
+#### Examples :-
 * **Today's date?**
 ```
  Bot: "Today is 25th Sepetember 2010"
