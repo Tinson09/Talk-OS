@@ -32,10 +32,9 @@ Run python execute.py
 ```
 
 ### Deployment
+#### Examples :-
 ```
 Run ./main.sh
-
-#### Examples :-
 ```
 * **Today's date?**
 ```
