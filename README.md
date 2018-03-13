@@ -48,5 +48,8 @@ Run ./main.sh
 * **Copy [File or Folder]**
 * **Paste**
 * **Delete [Folder or File]**
+* **Switch window**
+* **Create folder [Folder name]**
+* **Type [Something]**
 * **Let's Chat**
 
